@@ -92,3 +92,32 @@
 }
 
 /* discount section */
+.discount {
+    text-align: center;
+    margin: 120px;
+
+}
+
+.discount-h1 {
+    font-size: 88px;
+    color: red;
+    font-weight: 700;
+}
+
+.discount-p {
+    font-size: 24px;
+    color: red;
+    font-weight: 300;
+}
+
+.discount-h3 {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+}
+
+.discount-img {
+    margin-top: 48px;
+}
+
+/* <!-- Welcome to midnight party section --> */
