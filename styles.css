@@ -57,7 +57,7 @@
 /* banner section */
 .banner-bg {
 
-    border: 2px solid red;
+    border: 0px solid red;
     border-radius: 17px;
     width: 1320px;
     height: 600px;
@@ -85,9 +85,9 @@
 }
 
 .banner-shadow {
-    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.1));
     border-radius: 18px;
-    padding: 20px;
+    padding: 50px;
     position: relative;
 }
 
@@ -121,3 +121,62 @@
 }
 
 /* <!-- Welcome to midnight party section --> */
+.wellcome {
+    border: 0px solid red;
+    border-radius: 17px;
+    width: 1320px;
+    height: 600px;
+    background-image: url(images/Vectorrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.welcome-shadow {
+    /* background: linear-gradient (to left, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.1)); */
+
+
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.1));
+    border-radius: 18px;
+    padding: 25px;
+    position: relative;
+}
+
+.wellcome-text {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+
+
+}
+
+.wellcome-h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.wellcome-p {
+    font-size: 18px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    margin-top: 48px;
+}
+
+.wellcome-h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: block;
+    margin-top: 24px;
+}
+
+.wellcome-img {
+    padding: 10px;
+}
