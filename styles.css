@@ -132,13 +132,10 @@
     margin: 0 auto;
     margin-top: 50px;
     justify-content: center;
-    margin-bottom: 120px;
+
 }
 
 .welcome-shadow {
-    /* background: linear-gradient (to left, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.1)); */
-
-
     background-image: linear-gradient(90deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.1));
     border-radius: 18px;
     padding: 25px;
@@ -179,4 +176,46 @@
 
 .wellcome-img {
     padding: 10px;
+}
+
+/* loction */
+
+.location {
+    border: 0px solid red;
+    border-radius: 17px;
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(rgba(255, 0, 0, .2), rgba(255, 0, 0, 0));
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+
+
+.location-text {
+    font-size: 32px;
+    text-align: center;
+    padding: 100px;
+
+
+}
+
+#red {
+    color: red;
+}
+
+.location-btn {
+    background: red;
+    color: white;
+    width: 167px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    margin: 100px;
+
+
 }
