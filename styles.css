@@ -457,3 +457,47 @@
     height: 72px;
     border-radius: 50px;
 }
+
+/* footer section  */
+.footer {
+    background: #070211;
+    color: white;
+    height: 609px;
+}
+
+
+
+.footer-col1-p {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+hr {
+    margin: 48px auto;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-col1 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-col2 {
+    text-align: center;
+}
+
+.footer-img {
+    padding: 24px;
+}
+
+.footer-col3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-col3-p {
+    font-size: 24px;
+    font-weight: 400;
+}
